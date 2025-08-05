@@ -1,0 +1,97 @@
+body {
+  background-color: #c5c5c7;
+  color: white;
+}
+
+.header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 97.3%;
+}
+
+ul {
+  height: 80px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: greenyellow;
+}
+
+.introduction {
+  background-color: white;
+  height: 400px;
+  width: 89.3%;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pics {
+  border-radius: 10%;
+  height: 410px;
+  width: 400px;
+  object-fit: cover;
+}
+
+p {
+  font-style: italic;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-style: oblique;
+}
+
+.life {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(182, 182, 182);
+}
+
+.info-1 {
+  background-color: black;
+  height: 400px;
+  width: 60%;
+}
+
+.about {
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+  margin-top: -50px;
+  height: 600px;
+}
+
+.about h1 {
+  font-size: 45px;
+  font-style: oblique;
+}
+
+.about-feild {
+  height: 400px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+
+.about1,
+.about2,
+.about3 {
+
+  background-color: beige;
+  height: 300px;
+  width: 300px;
+}
